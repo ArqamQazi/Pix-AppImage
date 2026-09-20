@@ -2,16 +2,18 @@
 set -eu
 
 ARCH=$(uname -m)
-VERSION=$(pacman -Q maui-pix 2>/dev/null | awk '{print $2; exit}')
-export ARCH VERSION
+export ARCH
 export OUTPATH=./dist
 export ADD_HOOKS="self-updater.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
-export DESKTOP=/usr/share/applications/org.kde.pix.desktop
+export DESKTOP=/usr/share/applications/pix.desktop
 export ICON=/usr/share/icons/hicolor/scalable/apps/pix.svg
 
 # Deploy dependencies
-quick-sharun /usr/bin/pix
+quick-sharun \
+	/usr/bin/pix \
+	/usr/lib/pix \
+	/usr/share/pix
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage

@@ -1,21 +1,35 @@
 <div align="center">
 
-# TEMPLATE-AppImage 🐧
+# Pix-AppImage 🐧
 
-[![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/TEMPLATE-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest)
-[![CI Build Status](https://github.com/pkgforge-dev/TEMPLATE-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest)
-[![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/TEMPLATE-AppImage)](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest)
+[![GitHub Downloads](https://img.shields.io/github/downloads/ArqamQazi/Pix-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/ArqamQazi/Pix-AppImage/releases/latest)
+[![CI Build Status](https://github.com/ArqamQazi/Pix-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/ArqamQazi/Pix-AppImage/releases/latest)
+[![Latest Stable Release](https://img.shields.io/github/v/release/ArqamQazi/Pix-AppImage)](https://github.com/ArqamQazi/Pix-AppImage/releases/latest)
 
 <p align="center">
-  <img src="https://github.com/pkgforge-dev.png" width="128" />
+  <img src="https://raw.githubusercontent.com/linuxmint/pix/master/data/icons/public/hicolor/scalable/apps/pix.svg" width="128" alt="Pix Logo" />
 </p>
 
 
 | Latest Stable Release | Upstream URL |
 | :---: | :---: |
-| [Click here](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest) | [Click here](https://github.com/pkgforge-dev/Anylinux-AppImages) |
+| [Click here](https://github.com/ArqamQazi/Pix-AppImage/releases/latest) | [Click here](https://github.com/linuxmint/pix) |
 
 </div>
+
+---
+
+### Description
+
+Pix is an image viewer and browser based on gThumb for the X-Apps project (Linux Mint). It allows viewing and organizing images with support for various operations, formats, and extensions.
+
+Features:
+- **Image Browser**: Browse image directories with thumbnails, bookmark folders, and organize into catalogs.
+- **Image Viewer**: View single images, full-screen slideshows with transitions, and zoom/pan.
+- **Image Editing**: Basic editing tools including resize, crop, rotate, flip, and color adjustments.
+- **Metadata Support**: View and edit image EXIF, IPTC, and XMP metadata via Exiv2.
+- **Format Support**: Supports JPEG, PNG, TIFF, WebP, AVIF, HEIF, RAW images, and more.
+- **Batch Tools**: Batch image conversion, resizing, and renaming.
 
 ---
 
@@ -32,9 +46,9 @@ Self-updater is disabled by default if AppImage managers like [am](https://githu
 <details>
   <summary><b><i>raison d'être</i></b></summary>
     <img src="https://github.com/user-attachments/assets/d40067a6-37d2-4784-927c-2c7f7cc6104b" alt="Inspiration Image">
-  </a>
 </details>
 
 ---
 
 More at: [AnyLinux-AppImages](https://pkgforge-dev.github.io/Anylinux-AppImages/)
+
