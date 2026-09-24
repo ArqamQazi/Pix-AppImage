@@ -29,8 +29,11 @@ pacman -Syu --noconfirm \
 	libjxl \
 	libsecret \
 	gstreamer \
+	gst-plugins-base \
 	gst-plugins-base-libs \
 	gst-plugins-good \
+	gst-plugins-bad \
+	gst-plugin-gtk \
 	gst-libav
 
 echo "Installing debloated packages..."
